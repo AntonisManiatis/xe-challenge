@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "94e32da6-0df9-4781-9062-1b60a56180c9",
+    "name": "Local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-06-20T11:04:43.536Z",
+    "modified": "2023-06-20T11:04:43.537Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://localhost:5009"
+      },
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IkFudGhvbnkiLCJzdWIiOlsiQW50aG9ueSIsIjAwZGQ4YzBiLWNjM2YtNDEwYS04MGM2LTE0M2NlM2M1NjE3YiJdLCJqdGkiOiJmODg2ZGRiYyIsImF1ZCI6WyJodHRwOi8vbG9jYWxob3N0OjMwNTYiLCJodHRwczovL2xvY2FsaG9zdDo0NDM0MCIsImh0dHA6Ly9sb2NhbGhvc3Q6NTAwOSIsImh0dHBzOi8vbG9jYWxob3N0OjcyNjMiXSwibmJmIjoxNjg3MzM1MzAwLCJleHAiOjE2OTUyODQxMDAsImlhdCI6MTY4NzMzNTMwMCwiaXNzIjoiZG90bmV0LXVzZXItand0cyJ9.jwoe_FfHcfvnUIp9xGOZIEH3wgnxIWF7iVzOUwJNP48"
+      }
+    ]
+  }
+]

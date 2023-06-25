@@ -1,0 +1,39 @@
+[
+  {
+    "_id": "204d45aa-9a53-4dc6-9b81-919853347fe1",
+    "colId": "6e12b6bb-271e-48ac-85a8-a33fe7ca9584",
+    "containerId": "",
+    "name": "Get a rating",
+    "url": "{{host}}/ratings/4fd3047d-6f3b-4c15-8498-51ff14872ea3",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2023-06-20T11:05:40.357Z",
+    "modified": "2023-06-23T11:17:27.529Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "85de86cd-c595-4de7-b2f3-f885777cdd80",
+    "colId": "6e12b6bb-271e-48ac-85a8-a33fe7ca9584",
+    "containerId": "",
+    "name": "Post a rating",
+    "url": "{{host}}/ratings",
+    "method": "POST",
+    "sortNum": 5000,
+    "created": "2023-06-20T11:05:47.073Z",
+    "modified": "2023-06-25T07:24:34.369Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"rateeId\": \"4fd3047d-6f3b-4c15-8498-51ff14872ea3\",\n  \"value\": \"5.0\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  }
+]
